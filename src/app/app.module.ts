@@ -9,6 +9,7 @@ import { ItemComponent } from './features/home/components/main/item/item.compone
 import { GalleryComponent } from './features/home/components/gallery/gallery.component';
 import { HeaderComponent } from './features/home/components/header/header.component';
 import { ImageComponent } from './shared/components/image/image.component';
+import { HeroComponent } from './features/home/components/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ImageComponent } from './shared/components/image/image.component';
     ItemComponent,
     GalleryComponent,
     HeaderComponent,
-    ImageComponent
+    ImageComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
